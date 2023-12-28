@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'Arial Unicode MS';
+    src: url('./fonts/ARIALUNI.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Serif Myanmar';
+    src: url('./fonts/NotoSerifMyanmar-Bold.ttf') format('ttf');
+    font-weight: normal;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'Padauk Book';
+    src: url('./fonts/PadaukBook-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Myanmar Text';
+    src: url('./fonts/mmrtext.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+strong {
+    font-family: 'Myanmar Text';
+    src: url('./fonts/mmrtextb.ttf') format('ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Segoe Print';
+    src: url('./fonts/segoepr.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+strong {
+    font-family: 'Segoe Print';
+    src: url('./fonts/segoeprb.ttf') format('ttf');
+    font-weight: bold;
+}
+
+body.HDR_ENG {
+    background-color: #354963;
+    /* background-color: #754f20; */
+    color: #f5c358;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+div.Header1 {
+    font-family: 'Segoe Print';
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    top: 0px;
+}
+
+div.Header1_myan {
+    font-family: 'Noto Serif Myanmar';
+    font-size: 24px;
+    text-align: center;
+    top: 0px;
+}
+
+div.Header2_myan {
+    font-family: 'Noto Serif Myanmar';
+    font-size: 18px;
+    text-align: center;
+    top: 0px;
+}
+
+div.Header2_eng {
+    font-size: 16px;
+    text-align: center;
+    top: 0px;
+}
+
+body {
+    /* background-color: #e4edf2; */
+    background-color: #f7f0df;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+div.Software {
+    margin-left: 30px;
+}
+
+li.list_eng {
+    font-family: 'Arial Unicode MS';
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.8;
+    margin-left: 15px;
+}
+
+figure figcaption {
+    text-align: center;
+}

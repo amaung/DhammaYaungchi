@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'myanmar_sans_pro';
+    src: url('../../DY/fonts/myanmar_sans_pro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'Noto Serif Myanmar';
+    src: url('../../DY/fonts/NotoSerifMyanmar-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'Padauk Book';
+    src: url('../../DY/fonts/PadaukBook-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Myanmar Text';
+    src: url('../../DY/fonts/mmrtext.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+strong {
+    font-family: 'Myanmar Text';
+    src: url('../../DY/fonts/mmrtextb.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Arial Unicode MS';
+    src: url('../../DY/fonts/ARIALUNI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body.MHS_Header {
+    background-color: #801c1f;
+    color: #FFFF00;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+body {
+    background-color: #f1ebce;
+    color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.myan {
+    font-family: 'Padauk Book';
+    font-size: 22px;
+    text-align: left;
+    line-height: 1.8;
+}
+
+p.Header1_myan {
+    font-family: 'Noto Serif Myanmar';
+    font-size: 24px;
+    position: relative;
+    text-align: center;
+    line-height: 1.8;
+    top: 0px;
+}
+
+p.ack_myan {
+    font-family: 'Padauk Book';
+    font-weight: normal;
+    font-size: 18px;
+    position: relative;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 1.8;
+    top: 0px;
+}
+
+p.myan_indent {
+    font-family: 'Padauk Book';
+    font-size: 20px;
+    position: relative;
+    text-indent: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: justify;
+    line-height: 1.8;
+    top: 0px;
+}
+
+p.myan_center {
+    font-family: 'Padauk Book';
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    line-height: 1.8;
+    top: 0px;
+}
+
+p.myan_footnote {
+    font-family: 'Padauk Book';
+    font-size: 18px;
+    position: relative;
+    text-align: left;
+    line-height: 1.8;
+    top: 0px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Noto Serif Myanmar';
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 1.8;
+}
+
+h3.title {
+    text-align: left;
+    font-family: 'Padauk Book';
+    font-size: 22px;
+    line-height: 1.8;
+}
+
+div.Header1_myan {
+    font-family: 'Padauk Book';
+    font-size: 24px;
+    position: relative;
+    text-align: center;
+    top: 0px;
+}
+
+div.Header2_myan {
+    font-family: 'Padauk Book';
+    font-size: 18px;
+    position: relative;
+    text-align: right;
+    margin-right: 3%;
+    top: 0px;
+}
+
+li {
+    margin-top: 20px;
+}
+
+li.myan {
+    font-family: 'Padauk Book';
+    font-size: 22px;
+    text-align: left;
+    line-height: 1.8;
+}
+
+li.eng {
+    font-family: 'Arial Unicode MS';
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.8;
+}

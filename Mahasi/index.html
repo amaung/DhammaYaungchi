@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mahāsī Discourses</title>
+    <link rel="stylesheet" href="./css/Mahasi.css" type="text/css" />
+</head>
+<script>
+    function fitIframe(obj) {
+        obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + " px ";
+    }
+</script>
+<iframe src="./html/MHS_Header.html" onload="(function(){ style.height=contentWindow.document.documentElement.scrollHeight + 'px'; return false;})(); " frameborder="0 " width="100% " height="230px " title="Prayers ">
+  </iframe>
+
+<body>
+    <img src="./pics/Mahasi Sayadaw Gyi1_246x176.jpg" style="width: 18% " />
+    <br />
+    <!--<p class="date " id="today "></p>-->
+    <label>Today's date:&nbsp&nbsp</label>
+    <label id="today"></label
+    >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    <label>Last Updated: &nbspMay 1, 2022</label>
+    <p class="ack_myan">
+        အောက်တွင်ဖော်ပြထားသော မဟာစည်ဆရာတော်ဘုရားကြီး၏ တရားတော်များသည် online ပေါ်တွင် ဓမ္မမိတ်ဆွေများ တင်ထားသော တရားတော်များကို ပြန်လည်မျှဝေထားခြင်း ဖြစ်ပါသည်။ တင်ပြထားသူ ဓမ္မမိတ်များကို စာဖတ်သူများ သာဓုခေါ်နိုင်ရန် တရားတော်အဆုံးတွင် ဖော်ပြထားပါသည်။ ထို့အပြင်
+        ဓမ္မရောင်ခြည်သို့ တရားတော်များ ပေးပို့၊ ညွှန်ပြပေးသော ဓမ္မမိတ်ဆွေများကိုလည်း အထူးကျေးဇူးတင်ရှိပါကြောင်း။
+    </p>
+    <h3 class="title">မဟာစည်ဆရာတော်ဘုရားကြီး၏ နိဗ္ဗာန်ပို့ဆောင်တရားတော်များ</h3>
+
+    <ol>
+        <li class="myan">
+            <a href="./html/နိဗ္ဗာန်အာရုံသို့ကူးသွားပုံ.html">နိဗ္ဗာန်အာရုံသို့ကူးသွားပုံ (သို့မဟုတ်) "မဂ်" ရရှိပုံ
+          (ဝိပဿနာကျမ်း-ဒု ခဏ်း-၅၊ စာ-၄၂)</a
+        >
+      </li>
+    </ol>
+  </body>
+</html>
+<script>
+  var today = new Date().toDateString();
+  document.getElementById("today").innerHTML = today;
+
+  function PDFBook(n) {
+    switch (n) {
+      case 1:
+        window.open(
+          "./pdf/Cardinal Attributes of Buddha Dhamma Samgha1.pdf",
+          "resizeable,scrollbar"
+        );
+        break;
+      case 2:
+        window.open(
+          "./pdf/Chanmyay Daily Prayer Book 2022-04-30.pdf",
+          "resizeable,scrollbar"
+        );
+        break;
+      case 3:
+        window.open(
+          "./pdf/Chanmyay Daily Prayer Booklet 2022-04-30.pdf",
+          "resizeable,scrollbar"
+        );
+        break;
+    }
+  }
+</script>

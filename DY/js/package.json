@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "javax": "^0.0.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "servlet": "^0.0.8"
+  }
+}

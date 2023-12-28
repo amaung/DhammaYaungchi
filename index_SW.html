@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dhamma Yaungchi</title>
+    <link rel="stylesheet" href="./DY/DY.css" type="text/css" />
+</head>
+<div id="Dhamma Yaungchi"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+</script>
+<iframe src="./DY/DY_Header.html" onload="(function(){
+	style.height = contentWindow.document.documentElement.scrollHeight + 'px';
+    return false;})();" frameBorder="0" width="100%" height="250px" title="Prayers">
+</iframe>
+
+<body onload="GetPlatform()">
+    <br/>
+    <span style="display: flex; justify-content: center" id="today"></span>
+    <figure>
+        <p style="text-align:center; ">
+            <img src="./DY/pics/buddhist-heaven1.jpg" style="width:60%" ondblclick="ImageDoubleClick() ">
+        </p>
+        <figcaption padding: 0px;><font size="-1"><em>Credit and Sādhu to the original owner.</em></figcaption>
+    </figure>
+    <br/>
+    <div class="Software">
+        <ol>
+            <li class="list_eng"><a href="./NDES"> Nissaya Data Entry System &nbsp&nbsp(မြန်မာ-ပါဠိ နိဿယစာများ ရိုက်သွင်းခြင်း)</li>
+        </ol>
+        <!-- <input type="file " name="inputfile " id="inputfile ">
+        <br/>
+        <pre id="output "></pre> -->
+    </div>
+    <script>
+        // alert("Before UpdateCounter ");
+        // UpdateCounter("HOME ", "Home Page ");
+        // const fs = require('fs '); var today = new Date().toDateString(); 
+        // document.getElementById('today').innerHTML="Date: " + today; 
+        // var fr = new FileReader(); 
+        // fr.readFile("DY/data/ViewerCount.txt ", (err, data) => { 
+            // if (err) throw err; // console.log(data);
+        // }) 
+        // function ImageDoubleClick() {} 
+        // var file = document.getElementById('inputfile '); 
+        // file.addEventListener('change ', () => { 
+        //     var txtArr =[]; 
+        //     var fr = new FileReader(); fr.onload = function() { // By lines 
+        //         var lines = this.result.split('\n '); 
+        //         for (var line = 0; line < lines.length; line++) 
+        //         { 
+        //             txtArr=[ ...txtArr, ...(lines[line].split( " "))]; 
+        //         } 
+        //     } 
+        //     fr.onloaded=function() { console.log(txtArr); document.getElementById( 'output ').textContent=txtArr.join( " "); document.getElementById( "output ").innerHTML=txtArr[1]; console.log(txtArr[1]);
+        //     } 
+        //     fr.readAsText(file.files[0]); }) 
+        //     function GetReaderCount(title) { }
+        $.getJSON("https://api.ipify.org?format=json", function (data) {
+                // Setting text of element P with id gfg 
+                var url = "https://ipapi.co/" + data.ip + "/json/";
+                //alert(url);
+                var Http = new XMLHttpRequest();
+                Http.open("GET", url);
+                Http.send();
+                Http.onreadystatechange = function () {
+                    if (Http.readyState === XMLHttpRequest.DONE) {
+                        var status = Http.status;
+                        var strData = ["VISITORS", "PLATFORM " + navigator.platform, Http.responseText];
+                        //alert("HTTP info = " + strData);
+                        //PageMethods.UpdateSessionStats(strData);
+                    }
+                }
+            })
+    </script>
+</body>
+
+</html>
